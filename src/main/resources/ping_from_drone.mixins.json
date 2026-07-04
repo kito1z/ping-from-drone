@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kito1z.pfd.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ping_from_drone.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "PingControllerMixin",
+    "RaycastMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
